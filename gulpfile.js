@@ -24,6 +24,7 @@ gulp.task('connect', function () {
         port: config.port,
         base: config.base,
         livereload: true,
+        fallback: 'dist/index.html'
     });
 });
 

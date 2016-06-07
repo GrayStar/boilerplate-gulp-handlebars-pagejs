@@ -5,5 +5,8 @@ window.onload = function () {
     page('/secondary', function () {
         document.body.innerHTML = secondary();
     });
+    page('*', function () {
+        document.body.innerHTML = 'not found';
+    });
     page();
 };
